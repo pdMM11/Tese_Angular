@@ -1,0 +1,10 @@
+<nb-card>
+  <nb-card-body>
+    <p><b>WEBLOGO 3 (FROM http://weblogo.threeplusone.com/)</b></p>
+    SEQUENCE: <textarea nbInput fullWidth type="text" value="{{query_seq}}" [formControl]="sequence"></textarea>
+    <p></p>
+    <button nbButton (click)="gotoWebLogo(true)">WEBLOGO (FILE IMAGE)</button>
+    <p></p>
+    <button nbButton (click)="gotoWebLogo(false)">WEBLOGO (RAW DATA)</button>
+  </nb-card-body>
+</nb-card>
